@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    height: 80px;
+    width: 100%;
+    background-color:transparent;
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    z-index: 100;
+}
+.container{
+    height:60px;
+    width: 10%;
+    /* background-color: aqua; */
+    margin-left:2%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.logo{
+    height: 30px;
+    width: 60%;
+    /* margin-left: 0%; */
+    /* background-color: rgb(56, 117, 97); */
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+ 
+}
+ .img{
+        width: 90%;
+    }
+.navigation{
+    height: 80px;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    margin-left: 40%;
+    justify-content: center;
+
+}
+
+.nav{
+    height: 60px;
+    width: 90%;
+    /* background-color: rgb(41, 123, 123); */
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.nav-link{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(104, 151, 34);
+}
+
+
+/* .nav-link:hover{
+    background-color: ;
+} */
+
+
+
+
+.banner-fluid{
+     height: 800px;
+     width: 100%;
+     background-color: cadetblue;
+     background-image: url('./images/index.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+    }
+.sbanner{
+    height:300px;
+    width: 40%;
+    background-color:transparent;
+     margin-bottom: 400px;
+     margin-left: 40%;
+     align-items: center;
+     margin-top: 100px;
+     justify-content: center;
+    /* margin: center; */
+    position: absolute;
+    bottom: 0;
+}
+
+.sbanner>h1{
+    font-family: Times New Roman;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 60px;
+    margin-left: 20%;
+    color: rgb(104, 151, 34);
+}
+.sbanner>p{
+    font-family:system-ui ;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 20px;
+    color: rgb(78, 96, 130);
+}
+.sbanner>button{
+    margin-top: 20px;
+    margin-left: 40%;
+    font-size: larger;
+    color: green;
+      border-radius: 2%;
+}

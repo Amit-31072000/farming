@@ -1,0 +1,21 @@
+.maize{
+    height: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url('./images/maiz3.webp');
+    background-size: cover;
+}
+.maize>h1{
+    margin-left: 30%;
+    font-size: 45px;
+    color: rgb(220, 220, 75);
+}
+.maize>p{
+    margin-left: 10%;
+    font-size: 15px;
+
+}
+.maize>button{
+    margin-left:40%;
+    color: red;
+}

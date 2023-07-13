@@ -1,0 +1,25 @@
+.soyabeans{
+    height: 600px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url('./images/Soybean1.jpg');
+    background-size: cover;
+   
+}
+
+.soyabeans>h1{
+    margin-left: 60%;
+    color: rgb(111, 210, 111);
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.soyabeans>p{
+    
+    color: black;
+    font-size:20px;
+    margin-left: 50% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 40px;
+
+}

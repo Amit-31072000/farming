@@ -1,0 +1,20 @@
+.mohri{
+    height: 800px;
+    width: 100%;
+    background-color: beige;
+    background-image:url('./images/mohri.jpg') ;
+    background-size: 100% 800px;
+}
+.mohri>h1{
+    margin-left: 60%;
+    color: rgba(52, 181, 97, 0.866);
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mohri>p{
+    color: black;
+        font-size:20px;
+        margin-left: 40% ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 40px;
+}

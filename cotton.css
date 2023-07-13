@@ -1,0 +1,26 @@
+.cotton{
+    height:600px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url('./images/cotton3.jpg');
+    background-size: 100% 600px;
+    /* background-size: cover; */
+}
+.cotton>h1{
+    color: rgba(114, 167, 220, 0.986);
+    margin-left: 60%;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cotton>p{
+    color: black;
+    margin-left: 50%;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cotton>button{
+    margin-left: 55%;
+    color: red;
+    margin-bottom: 10px;
+}
